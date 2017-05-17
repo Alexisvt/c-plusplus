@@ -1,0 +1,60 @@
+C:\Users\Alexisvt\.CLion2017.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Alexisvt/Source/Repos/c-plusplus/Exceptions
+-- The C compiler identification is GNU 6.3.0
+-- The CXX compiler identification is GNU 6.3.0
+-- Check for working C compiler: /cygdrive/c/C++/MinGW/bin/gcc.exe
+-- Check for working C compiler: /cygdrive/c/C++/MinGW/bin/gcc.exe -- broken
+CMake Error at /cygdrive/c/Users/Alexisvt/.CLion2017.1/system/cygwin_cmake/share/cmake-3.7.1/Modules/CMakeTestCCompiler.cmake:51 (message):
+  The C compiler "/cygdrive/c/C++/MinGW/bin/gcc.exe" is not able to compile a
+  simple test program.
+
+  It fails with the following output:
+
+   Change Dir: /cygdrive/c/Users/Alexisvt/Source/Repos/c-plusplus/Exceptions/cmake-build-debug/CMakeFiles/CMakeTmp
+
+  
+
+  Run Build Command:"/cygdrive/c/C++/MinGW/bin/make.exe" "cmTC_ad45b/fast"
+
+  C:/C++/MinGW/bin/make -f CMakeFiles/cmTC_ad45b.dir/build.make
+  CMakeFiles/cmTC_ad45b.dir/build
+
+  make[1]: Entering directory
+  'C:/Users/Alexisvt/Source/Repos/c-plusplus/Exceptions/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+  Building C object CMakeFiles/cmTC_ad45b.dir/testCCompiler.c.o
+
+  /cygdrive/c/C++/MinGW/bin/gcc.exe -o
+  CMakeFiles/cmTC_ad45b.dir/testCCompiler.c.o -c
+  /cygdrive/c/Users/Alexisvt/Source/Repos/c-plusplus/Exceptions/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+
+
+  gcc.exe: error:
+  /cygdrive/c/Users/Alexisvt/Source/Repos/c-plusplus/Exceptions/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c:
+  No such file or directory
+
+  gcc.exe: fatal error: no input files
+
+  compilation terminated.
+
+  make[1]: *** [CMakeFiles/cmTC_ad45b.dir/build.make:66:
+  CMakeFiles/cmTC_ad45b.dir/testCCompiler.c.o] Error 1
+
+  make[1]: Leaving directory
+  'C:/Users/Alexisvt/Source/Repos/c-plusplus/Exceptions/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+  make: *** [Makefile:126: cmTC_ad45b/fast] Error 2
+
+  
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cygdrive/c/Users/Alexisvt/Source/Repos/c-plusplus/Exceptions/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/cygdrive/c/Users/Alexisvt/Source/Repos/c-plusplus/Exceptions/cmake-build-debug/CMakeFiles/CMakeError.log".
